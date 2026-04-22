@@ -156,7 +156,7 @@ Function Install-VS-Core {
 
     Log-Action "Starting VS 2026 Core Installation (Offline)..."
     # --noUpdateInstaller prevents the common Exit Code 1 timeout
-    $Args = @("--noWeb", "--noUpdateInstaller", "--config", "`"$ConfigPath`"", "--allowUnsignedExtensions", "--nickname", "Willz", "--passive", "--norestart", "--wait")
+    $Args = @("--noWeb", "--noUpdateInstaller", "--config", "`"$ConfigPath`"", "--allowUnsignedExtensions", "--passive", "--norestart", "--wait")
     $Proc = Start-Process -FilePath $VSBootstrapper -ArgumentList $Args -Wait -PassThru
     
     if ($Proc.ExitCode -eq 0 -or $Proc.ExitCode -eq 3010) {
