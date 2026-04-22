@@ -170,7 +170,7 @@ C:\VSLayout
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-repo/vs-offline-ultra.git
+git clone https://github.com/walidwrdany/vs-offline-ultra.git
 cd vs-offline-ultra
 ```
 
