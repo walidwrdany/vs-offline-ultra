@@ -419,4 +419,4 @@ It is a **complete Visual Studio lifecycle manager**:
 
 🔥 Built for power users. Designed for automation.
 
-```
+---
