@@ -148,8 +148,7 @@ C:\VSLayout
 ├── vs.vsconfig
 ├── Extensions\
 ├── certificates\
-├── Archive\
-└── VS_Log_YYYYMMDD.log
+└── Archive\
 ```
 
 ---
